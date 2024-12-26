@@ -67,7 +67,7 @@ export default function Home() {
           : "Select Any Time Interval"}
       </h1>
 
-      <div className="flex justify-center items-center gap-2">
+      <div className="flex justify-center items-center gap-2 flex-wrap">
         {timesIntervals.map((data) => (
           <h1
             key={data?.title}
